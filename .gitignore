@@ -2,12 +2,13 @@
 __pycache__/
 *.pyc
 
-# Logs
-logs/
-*.log
-
-# Environment
+# Virtual environments
+venv/
 .env
+
+# Logs
+*.log
+logs/
 
 # VS Code
 .vscode/
@@ -15,9 +16,6 @@ logs/
 # Windows
 Thumbs.db
 Desktop.ini
-
-# Linux
-*~
 
 # macOS
 .DS_Store
